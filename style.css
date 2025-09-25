@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    border: 8px solid black;
 }
 
 .container {
@@ -67,12 +68,14 @@ header a:hover {
     color: white;
     text-align: center;
     padding: 100px 20px;
+
 }
 
 #showcase h1 {
     margin-top: 100px;
     margin-bottom: 10px;
     font-size: 45px;
+
 }
 
 #showcase h1 p {
@@ -83,6 +86,8 @@ header a:hover {
     padding: 15px;
     color: black;
     background: gray;
+    margin-top: 50px;
+
 }
 
 #newsletter h2 {
@@ -102,30 +107,33 @@ header a:hover {
     padding-left: 20px;
     padding-right: 20px;
     color: black;
+    margin-top: 10px;
 }
 
 .dark {
     padding: 15px;
     color: black;
     background: grey;
-    margin-top: 10px;
+    margin-top: 68px;
     margin-bottom: 10px;
 }
 
 #boxes .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20 px;
-
-
+    row-gap: 8px;
+    border: 4px solid black;
 }
 
 #boxes .box {
-    flex: 1;
+    flex: 0 0 30%;
+    max-width: 30%;
     padding: 15px;
     text-align: center;
     border-radius: 10px;
     background-color: white;
+    box-sizing: border-box;
 }
 
 #boxes .box img {
@@ -142,7 +150,7 @@ aside#sidebar {
 
 article#main-col {
     float: left;
-    width: 65%;
+    width: 50%;
 }
 
 
@@ -152,16 +160,19 @@ ul#services li {
     margin-bottom: 5px;
     border: green;
     background-color: gray;
-    width: 70%;
+    width: 80%;
 
 }
 
 footer {
-    margin: 10px;
-    margin-top: 100px;
+    padding: 20px;
     color: black;
     background-color: gray;
     text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    box-sizing: border-box;
 }
 
 @media (max-width:768px) {
