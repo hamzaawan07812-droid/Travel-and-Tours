@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: gray;
+    background-color: aliceblue;
     color: black;
     padding-top: 30px;
     min-height: 70px;
@@ -85,7 +85,7 @@ header a:hover {
 #newsletter {
     padding: 15px;
     color: black;
-    background: gray;
+    background: aliceblue;
     margin-top: 50px;
 
 }
@@ -113,8 +113,8 @@ header a:hover {
 .dark {
     padding: 15px;
     color: black;
-    background: grey;
-    margin-top: 68px;
+    background: skyblue;
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -157,17 +157,16 @@ article#main-col {
 ul#services li {
     list-style: none;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     border: green;
-    background-color: gray;
+    background-color: skyblue;
     width: 80%;
-
 }
 
 footer {
     padding: 20px;
     color: black;
-    background-color: gray;
+    background-color: skyblue;
     text-align: center;
     width: 100%;
     margin: 0;
